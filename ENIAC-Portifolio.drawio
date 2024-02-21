@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-21T00:07:21.920Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="53TLyM0SdAiQ9rCFOzDP" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-21T00:09:21.752Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="5Lpg3c6uaFJIqn2w7yfc" version="23.1.5" type="github">
   <diagram name="Página-1" id="mJLCUhvSLpM9Iwz3uHTD">
     <mxGraphModel dx="2049" dy="1114" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -15,6 +15,42 @@
         </mxCell>
         <mxCell id="pu3p6v9pUtM_yW5x0ThC-5" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Animal&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1070" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pu3p6v9pUtM_yW5x0ThC-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="pu3p6v9pUtM_yW5x0ThC-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1160" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pu3p6v9pUtM_yW5x0ThC-7" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;ID_ANIMAL&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="530" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="pu3p6v9pUtM_yW5x0ThC-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="pu3p6v9pUtM_yW5x0ThC-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1160" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pu3p6v9pUtM_yW5x0ThC-8" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;NOME_ANIMAL&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="630" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="pu3p6v9pUtM_yW5x0ThC-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="pu3p6v9pUtM_yW5x0ThC-9" target="pu3p6v9pUtM_yW5x0ThC-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pu3p6v9pUtM_yW5x0ThC-9" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="730" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="pu3p6v9pUtM_yW5x0ThC-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="pu3p6v9pUtM_yW5x0ThC-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1160" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pu3p6v9pUtM_yW5x0ThC-10" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="840" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="pu3p6v9pUtM_yW5x0ThC-11" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="940" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="pu3p6v9pUtM_yW5x0ThC-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.667;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="pu3p6v9pUtM_yW5x0ThC-5" target="pu3p6v9pUtM_yW5x0ThC-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

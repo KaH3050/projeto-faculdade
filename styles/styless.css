@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.btn-quero-doar {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff8c00;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex;
+    align-items: center;
+}
+
+.btn-quero-doar:hover {
+    background-color: #e67e22;
+}
+
+.btn-quero-doar img {
+    width: 25px;
+    height: 25px;
+    border-radius: 90%;
+    margin-left: 10px;
+    border-radius: 90%;
+}

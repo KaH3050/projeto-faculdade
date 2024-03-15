@@ -57,7 +57,7 @@
 
     h2 {
 
-        color: hsl(41, 97%, 47%) !important;
+        color: hsl(0, 0%, 0%) !important;
         text-align: center;
         font-size: 50px;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
@@ -166,12 +166,13 @@
 }
 
 .faixa {
-    position: fixed;
+    position: relative;
     top: 13%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 99%;
-    height: 130px; /* Altura ajustada para 50 pixels */
-    background-color: #333; /* cor da faixa */
+    height: 150px; /* Altura ajustada para 50 pixels */
+    background-color: #e98400; /* cor da faixa */
+    text-align: center;
 }
 

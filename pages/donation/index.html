@@ -1,46 +1,105 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../styles/sylesdonation.css">
     <title>Doação</title>
+    <script src="../../js/index.js"></script>
 </head>
-
 <body>
-    <div>
-        <header>
-            <div class="header-container">
-                <img src="../../images/cao_sem_dono_logo.png" alt="cao_sem_dono_logo" width="300" height="100" class="imagem_logo">
-                <nav>
-                    <ul class="menu">
-                        <li><a href="../../pages/donation/index.html">Doações</a></li>
-                        <li><a href="../../index.html">Sobre</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
+    <div class="header-container">
+        <img src="../../images/cao_sem_dono_logo.png" alt="cao_sem_dono_logo" width="300" height="100"
+            class="imagem_logo">
+        <nav>
+            <ul class="menu">
+                <li><a href="../../pages/contact/index.html">Contato</a></li>
+                <li><a href="../../index.html">Sobre</a></li>
+            </ul>
+        </nav>
     </div>
-    <p>
-    <p class="orange-text">DOAÇÕES</p>
-    <P class="orange-text">COMO AJUDAR</P>
-    <p class="text_left">Existem muitas formas de nos<br> ajudar a cuidar dos
-        mais de 450 cães que cuidamos <br>e alimentamos todos
-        os dias, fora os cães que ajudamos<br> a sustentar de
-        outros protetores.</p><br>
-    <P class="text_left">Você pode doar ração, cobertores, medicamentos, material<br> de limpeza e de procedimento,
-        artigos para
-        nosso Bazar<br> permanente ou fazer uma doação em
-        dinheiro, o que nos ajuda<br> no pagamento de despesas
-        como conta de água, luz, telefone,<br> internet,
-        funcionários, impostos, compra de ração, medicamentos,<br> veterinários, exames laboratoriais,
-        procedimentos cirúrgicos,<br> combustível, feiras de
-        adoção, entre tantas outras.</P><br>
-    <p class="text_left">Cada feira de adoção tem custo hoje de R$ 100,00
-        (cem reais), pois<br> há gastos com banho nos animais,
-        transporte e funcionários.</p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    </p>
+    <div class="coluna">
+        <div class="coluna_conteudo">
+            <p>
+            <p class="orange-text">DOAÇÕES</p>
+            <P class="orange-text">COMO AJUDAR</P>
+            <p class="text_center">Existem muitas formas de nos ajudar a cuidar dos
+                mais de 450 cães que cuidamos e alimentamos todos
+                os dias, fora os cães que ajudamos a sustentar de
+                outros protetores.</p>
+            <P class="text_center">Você pode doar ração, cobertores, medicamentos, material de limpeza e de
+                procedimento,
+                artigos para
+                nosso Bazar permanente ou fazer uma doação em
+                dinheiro, o que nos ajuda no pagamento de despesas
+                como conta de água, luz, telefone, internet,
+                funcionários, impostos, compra de ração, medicamentos, veterinários, exames laboratoriais,
+                procedimentos cirúrgicos, combustível, feiras de
+                adoção, entre tantas outras.</P>
+            <p class="text_center">Cada feira de adoção tem custo hoje de R$ 100,00
+                (cem reais), pois há gastos com banho nos animais,
+                transporte e funcionários.</p>
+            </p>
+            <img src="../../images/cao_sem_dono_logo.png" alt="">
+        </div>
+        <div class="coluna_form">
+            <form onsubmit="enviar()" class="form">
+
+                <div class="div_input">
+                    <p class="input_text">
+                        Nome Completo:
+                    </p>
+                    <input type="text" class="input" id="nome">
+                </div>
+                <div class="div_input">
+                    <p class="input_text">
+                        CPF:
+                    </p>
+                    <input type="tel" class="input" id="cpf">
+
+                </div>
+                <div class="div_input">
+                    <p class="input_text">
+                        Telefone:
+                    </p>
+                    <input type="tel" class="input" id="telefone">
+                </div>
+                <div class="div_input">
+                    <p class="input_text">
+                        CEP:
+                    </p>
+                    <input type="tel" class="input" id="cep">
+                </div>
+                <div class="div_input">
+                    <p class="input_text">
+                        Email:
+                    </p>
+                    <input type="email" class="input" id="data">
+                </div>
+                <div class="div_input">
+                    <p class="input_text">
+                        Data de nacimento:
+                    </p>
+                    <input type="date" class="input" id="data">
+                </div>
+                <div class="div_input">
+                    <p class="input_text">
+                        Valor da doação:
+                    </p>
+                    <div class="div_money">
+                        <p class="text_money">
+                            R$
+                        </p>
+                        <input type="number" class="input_money" id="doacao">
+                    </div>
+
+                </div>
+                <button class="button" type="submit">
+                    Concluir Doação
+                </button>
+            </form>
+        </div>
+    </div>
     <footer>
         <div class="footer-content">
             <ul>
